@@ -15,13 +15,13 @@
 ##### Pour lancer le projet:
   1 - Installer les dépendances dans les deux dossier /webchat et /webchat-api
 ```sh
-npm install /webchat && npm install /webchat-api
+npm install ./webchat && npm install ./webchat-api
 ```
 2 - Créer le fichier .env à l'aide du .env.example dans /webchat-api, et remplir les informations de connexion à votre base de données, mongoDB (atlas)
 
 3 - Lancer les applications
 ```sh
-npm run start /webchat && npm run start /webchat-api
+npm run start --prefix /webchat && npm run start --prefix /webchat-api
 ```
 
 #### Débug
